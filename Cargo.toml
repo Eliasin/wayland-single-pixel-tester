@@ -1,0 +1,8 @@
+[package]
+name = "wayland-single-pixel-tester"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wayland-client = "0.31.8"
+wayland-protocols = { version = "0.32.6", features = ["client", "staging"] }
